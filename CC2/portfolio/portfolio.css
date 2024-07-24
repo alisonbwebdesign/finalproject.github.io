@@ -1,0 +1,55 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #575757;
+    outline: none;
+}
+
+.main-header {
+    margin: 20px 0;
+    background-image: url("Coding-courses/Coding-courses/images/header-image.jpg");
+    background-color: lightcoral;
+    background-size: cover;
+}
+
+.about-me {
+    margin: 20px 0;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+}
